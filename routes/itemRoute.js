@@ -1,5 +1,5 @@
 import express from "express";
-import { isAdminOrVendor, isAuthenticated, isVendor } from "../middleware/auth.js";
+import { isAdminOrVendor, isAuthenticated } from "../middleware/auth.js";
 import {
   createProduct,
   createProductReview,
